@@ -7,31 +7,24 @@
   "work_sunday": false,
   "work_monday": true,
   "work_tuesday": true,
-  "work_wednesday": false,
+  "work_wednesday": true,
   "work_thursday": true,
   "work_friday": true,
   "work_saturday": false,
   "time_off_reasons": [
     {
-      "id": "0027fe38-1767-41e4-b93d-86e3c8f391e1",
+      "id": "01282961-933d-4564-b7ea-c0563d18333d",
       "time_off_policy_id": "8ab9850e-6861-461f-a63d-cc44ec756999",
-      "name": "Rest",
+      "name": "Holidays",
       "bucket_type": "leave",
-      "sort_order": 146
+      "sort_order": 148
     },
     {
-      "id": "1bb477ca-e33b-44c2-84ec-76cca10822f9",
+      "id": "b8e52969-1f56-42f6-9bff-5ffbefedc448",
       "time_off_policy_id": "8ab9850e-6861-461f-a63d-cc44ec756999",
-      "name": "Vacation",
+      "name": "Vacations",
       "bucket_type": "leave",
-      "sort_order": 143
-    },
-    {
-      "id": "4b4c2de7-8f7e-413c-a6fd-b88dfc6b3ae5",
-      "time_off_policy_id": "8ab9850e-6861-461f-a63d-cc44ec756999",
-      "name": "Holidays!",
-      "bucket_type": "leave",
-      "sort_order": 145
+      "sort_order": 147
     }
   ],
   "time_off_buckets": [
@@ -56,14 +49,14 @@
       "deduct_negative_time": false,
       "worked_value": null,
       "accrual_method": "fixed_amount",
-      "upload_supporting_document": false,
+      "upload_supporting_document": true,
       "setup_completed": true,
       "salary_paid": true,
       "hourly_paid": true,
       "bucket_name": "Leave",
       "bucket_icon": "LEAVE_FLAT",
-      "accrual_status": "continue",
-      "pay_on_leave_status": "full_salary",
+      "accrual_status": "pause",
+      "pay_on_leave_status": "no_salary",
       "time_off_tenure_rates": [
 
       ],
@@ -79,14 +72,14 @@
       "holiday": "new_years_day"
     },
     {
+      "id": "3c45589b-a10b-435b-b591-a5db5a061bac",
+      "time_off_policy_id": "8ab9850e-6861-461f-a63d-cc44ec756999",
+      "holiday": "juneteenth"
+    },
+    {
       "id": "6385b949-0d62-40a2-a12c-998125cf8f44",
       "time_off_policy_id": "8ab9850e-6861-461f-a63d-cc44ec756999",
       "holiday": "thanksgiving"
-    },
-    {
-      "id": "75e68e44-2829-48ef-9096-b0b53808113a",
-      "time_off_policy_id": "8ab9850e-6861-461f-a63d-cc44ec756999",
-      "holiday": "easter"
     },
     {
       "id": "80375613-7cc2-4370-9146-3a00438f4dc2",
@@ -116,9 +109,15 @@
   ],
   "time_off_custom_holidays": [
     {
-      "id": "ce3b84ff-f8f5-449d-87e8-5e843e64b875",
+      "id": "176d53f9-4142-4cf1-82b1-746c9bc5e5ba",
       "time_off_policy_id": "8ab9850e-6861-461f-a63d-cc44ec756999",
-      "name": "Dia do Saci",
+      "name": "Boi tata day",
+      "dates": "2023-08-07...2023-08-08"
+    },
+    {
+      "id": "c99580dc-fe08-4a36-a86d-6163ab6a4797",
+      "time_off_policy_id": "8ab9850e-6861-461f-a63d-cc44ec756999",
+      "name": "Saci day",
       "dates": "2023-10-31...2023-11-01"
     }
   ]
