@@ -1,0 +1,125 @@
+{
+  "id": "8ab9850e-6861-461f-a63d-cc44ec756999",
+  "company_id": "57ee4ed1-08ed-4e06-b753-eaa740a2fef9",
+  "name": "Default Policy",
+  "use_observed_holidays": true,
+  "hours_per_day": 10.0,
+  "work_sunday": false,
+  "work_monday": true,
+  "work_tuesday": true,
+  "work_wednesday": false,
+  "work_thursday": true,
+  "work_friday": true,
+  "work_saturday": false,
+  "time_off_reasons": [
+    {
+      "id": "0027fe38-1767-41e4-b93d-86e3c8f391e1",
+      "time_off_policy_id": "8ab9850e-6861-461f-a63d-cc44ec756999",
+      "name": "Rest",
+      "bucket_type": "leave",
+      "sort_order": 146
+    },
+    {
+      "id": "1bb477ca-e33b-44c2-84ec-76cca10822f9",
+      "time_off_policy_id": "8ab9850e-6861-461f-a63d-cc44ec756999",
+      "name": "Vacation",
+      "bucket_type": "leave",
+      "sort_order": 143
+    },
+    {
+      "id": "4b4c2de7-8f7e-413c-a6fd-b88dfc6b3ae5",
+      "time_off_policy_id": "8ab9850e-6861-461f-a63d-cc44ec756999",
+      "name": "Holidays!",
+      "bucket_type": "leave",
+      "sort_order": 145
+    }
+  ],
+  "time_off_buckets": [
+    {
+      "id": "11b989b0-027a-4ac1-8e5b-1fad4995602e",
+      "time_off_policy_id": "8ab9850e-6861-461f-a63d-cc44ec756999",
+      "bucket_type": "leave",
+      "is_unlimited": true,
+      "accrual_frequency": "paydate",
+      "policy_starts": "hire_date",
+      "policy_start_month": null,
+      "policy_start_day": null,
+      "base_rate": 80.0,
+      "max_balance": null,
+      "prorate_new_hire": true,
+      "prorate_tenure": true,
+      "annual_reset_max": null,
+      "minimum_request_increment": 1.0,
+      "waiting_period": 0,
+      "accrue_during_waiting_period": true,
+      "payout_positive_time": true,
+      "deduct_negative_time": false,
+      "worked_value": null,
+      "accrual_method": "fixed_amount",
+      "upload_supporting_document": false,
+      "setup_completed": true,
+      "salary_paid": true,
+      "hourly_paid": true,
+      "bucket_name": "Leave",
+      "bucket_icon": "LEAVE_FLAT",
+      "accrual_status": "continue",
+      "pay_on_leave_status": "full_salary",
+      "time_off_tenure_rates": [
+
+      ],
+      "time_off_tenure_max_balances": [
+
+      ]
+    }
+  ],
+  "time_off_standard_holidays": [
+    {
+      "id": "1635a50c-6475-4230-aeed-74b458f33288",
+      "time_off_policy_id": "8ab9850e-6861-461f-a63d-cc44ec756999",
+      "holiday": "new_years_day"
+    },
+    {
+      "id": "6385b949-0d62-40a2-a12c-998125cf8f44",
+      "time_off_policy_id": "8ab9850e-6861-461f-a63d-cc44ec756999",
+      "holiday": "thanksgiving"
+    },
+    {
+      "id": "75e68e44-2829-48ef-9096-b0b53808113a",
+      "time_off_policy_id": "8ab9850e-6861-461f-a63d-cc44ec756999",
+      "holiday": "easter"
+    },
+    {
+      "id": "80375613-7cc2-4370-9146-3a00438f4dc2",
+      "time_off_policy_id": "8ab9850e-6861-461f-a63d-cc44ec756999",
+      "holiday": "memorial_day"
+    },
+    {
+      "id": "99864014-8cca-4798-a89e-06a62ef4e483",
+      "time_off_policy_id": "8ab9850e-6861-461f-a63d-cc44ec756999",
+      "holiday": "independence_day"
+    },
+    {
+      "id": "c167ebb5-e377-4deb-80a7-0bc296a24217",
+      "time_off_policy_id": "8ab9850e-6861-461f-a63d-cc44ec756999",
+      "holiday": "christmas"
+    },
+    {
+      "id": "c4394de0-978a-42ce-ada4-37f05cfe75c7",
+      "time_off_policy_id": "8ab9850e-6861-461f-a63d-cc44ec756999",
+      "holiday": "labor_day"
+    },
+    {
+      "id": "dcadc789-09e2-4c10-b4a0-56dc39521564",
+      "time_off_policy_id": "8ab9850e-6861-461f-a63d-cc44ec756999",
+      "holiday": "friday_after_thanksgiving"
+    }
+  ],
+  "time_off_custom_holidays": [
+    {
+      "id": "ce3b84ff-f8f5-449d-87e8-5e843e64b875",
+      "time_off_policy_id": "8ab9850e-6861-461f-a63d-cc44ec756999",
+      "name": "Dia do Saci",
+      "dates": "2023-10-31...2023-11-01"
+    }
+  ]
+}
